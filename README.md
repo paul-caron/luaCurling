@@ -12,7 +12,9 @@ print(res:toString())
 ```
 
 ## dependencies
-```
+Dependencies are included in this repository for the most part, as curling and sol2 are header-only libs.
+Just you would need install the liblua-dev 5.4.
+```ini
 liblua-dev=5.4
 curling=1.2
 sol2=3.0
