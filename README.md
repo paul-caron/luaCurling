@@ -20,5 +20,5 @@ Just you would need install the liblua-dev 5.4 and libcurl-dev and your prefered
 liblua-dev=5.4
 curling=1.2
 sol2=3.0
-libcurl 8.5.0
+libcurl=8.5.0
 ```
