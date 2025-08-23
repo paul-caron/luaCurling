@@ -1,12 +1,12 @@
 # Lua_curling
 A lua binding of my C++ curling library. Enables a user to make some HTTP requests on the command line, inside a REPL. (would also be nice to add command line argument filename to preload (eg. ./lua_curling configs.lua) before lauching the REPL: TODO)
 
-
+## Example
 ```lua
 lua > req = Request.new() \
        :setURL("https://www.example.com") \
        :setMethod(HttpMethod.GET) \
-res = req.send(1) \
+res = req:send(1) \
 print(res:toString())
 --should output the content of the response
 ```
