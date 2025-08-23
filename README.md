@@ -15,7 +15,7 @@ print(res:toString())
 Dependencies are included in this repository for the most part, as curling and sol2 are header-only libs.
 Just you would need install the liblua-dev 5.4 and libcurl-dev and your prefered ssl backend (I am pretty sure I have OpenSSL on my Ubuntu 24.04).
 
-```INI
+```ini
 [DEPENDENCIES]
 liblua-dev=5.4
 curling=1.2
