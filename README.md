@@ -14,5 +14,6 @@ print(res:toString())
 ## dependencies
 ```
 liblua-dev=5.4
-curling=1.2 
+curling=1.2
+sol2=3.0
 ```
