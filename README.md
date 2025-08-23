@@ -24,4 +24,4 @@ libcurl=8.5.0
 ```
 
 ## Notes
-Some MIT Json encoder decoder library written in Lua is also added to this repo, but that is just as a convenience for whoever would like to use it with their Lua project.
+Some MIT Json encoder decoder library written in Lua is also added to this repo, but that is just as a convenience for whoever would like to use it with their Lua project.(from https://github.com/rxi/json.lua)
