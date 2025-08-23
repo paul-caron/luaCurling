@@ -8,5 +8,11 @@ lua > req = Request.new() \
        :setMethod(HttpMethod.GET) \
 res = req.send(1) \
 print(res:toString())
-...
+--should output the content of the response
+```
+
+## dependencies
+```
+liblua-dev=5.4
+curling=1.2 
 ```
