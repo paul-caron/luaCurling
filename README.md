@@ -1,5 +1,5 @@
 # Lua_curling
-A lua binding of my C++ curling library. Enables a user to make some HTTP requests, inside a REPL.
+A lua binding of my C++ curling library. Enables a user to make some HTTP requests on the command line, inside a REPL.
 
 
 ```lua
