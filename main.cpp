@@ -64,10 +64,13 @@ int main() {
 
     repl::REPL shell([&lua](const std::string& input) {
         sol::protected_function_result res = lua.safe_script(input, sol::script_pass_on_error);
+        if (!res.valid()) {
+            sol::error err = res;
+            std::cerr << "Lua error: " << err.what() << '\n';
+        }
     });
 
     shell.run();
-
 
     return 0;
 }
