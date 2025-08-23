@@ -57,7 +57,7 @@ void register_curling(sol::state& lua) {
 
 int main() {
     sol::state lua;
-    lua.open_libraries(sol::lib::base, sol::lib::package, sol::lib::table, sol::lib::string);
+    lua.open_libraries(sol::lib::base, sol::lib::package, sol::lib::table, sol::lib::string, sol::lib::math);
 
     register_curling(lua);
 
