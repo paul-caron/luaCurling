@@ -5,9 +5,9 @@ A lua binding of my C++ curling library. Enables a user to make some HTTP reques
 ```lua
 lua > req = Request.new()
 lua > req:setURL("https://www.example.com") \
-       :setMethod(HttpMethod.GET) \
-res = req:send(1) \
-print(res:toString())
+... > :setMethod(HttpMethod.GET) \
+... > res = req:send(1) \
+... > print(res:toString())
 --should output the content of the response
 ```
 
