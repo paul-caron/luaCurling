@@ -18,7 +18,7 @@ LDFLAGS    += $(LUALDFLAGS)
 # --------------------------------------------------------------
 #  Targets
 # --------------------------------------------------------------
-TARGET  := sample
+TARGET  := luaCurling
 SRCS    := main.cpp
 
 .PHONY: all clean
