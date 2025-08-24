@@ -50,7 +50,13 @@ void register_curling(sol::state& lua) {
         "setCookiePath", &Request::setCookiePath,
         "addFormField", &Request::addFormField,
         "addFormFile", &Request::addFormFile,
-        "enableVerbose", &Request::enableVerbose
+        "enableVerbose", &Request::enableVerbose,
+        "setProxy", &Request::setProxy,
+        "setProxyAuth", &Request::setProxyAuth,
+        "setProxyAuthMethod", &Request::setProxyAuthMethod,
+        "setHttpAuth", &Request::setHttpAuth,
+        "setHttpAuthMethod", &Request::setHttpAuthMethod,
+        "setHttpVersion", &Request::setHttpVersion
     );
 
     lua["curling_version"] = &curling::version;
