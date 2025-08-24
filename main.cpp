@@ -54,6 +54,7 @@ void register_curling(sol::state& lua) {
     );
 
     lua["curling_version"] = &curling::version;
+    lua["waitMS"] = &curling::waitMs;
 }
 
 int main() {
